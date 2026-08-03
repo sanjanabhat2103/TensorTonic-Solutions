@@ -1,0 +1,14 @@
+import numpy as np
+
+def adagrad_step(w, g, G, lr=0.01, eps=1e-8):
+    """
+    Perform one AdaGrad update step.
+    """
+    w = np.asarray(w, dtype = float)
+    g = np.asarray(g, dtype = float)
+    G = np.asarray(G, dtype = float)
+    if lr <= 0:
+        raise ValueError("Learning rate must be positive.")
+    G = G + g ** 2
+    w = w - lr * g / (np.sqrt(G + eps))
+    return w, G
