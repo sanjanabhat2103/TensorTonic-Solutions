@@ -150,6 +150,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Vanishing Gradients | Simulate vanishing or exploding RNN gradients by repeatedly applying the hidden matrix's spectral norm. | https://www.tensortonic.com/research/rnn/rnn-vanishing-gradients |
 | Estimate a Scalar Derivative | Estimate a scalar polynomial derivative with a forward finite difference using coefficients ordered by ascending power. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l01-finite-difference-derivative |
 | Check a Product-Chain Gradient | Compare analytic gradients with forward-difference estimates for a two-operation scalar graph. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l01-gradient-check-product-chain |
+| Apply a Gradient-Descent Step | Apply one NumPy gradient-descent update and compute the first-order predicted objective change without mutating inputs. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l01-gradient-descent-step |
 | Measure Scalar Expression Partials | Estimate the three partial derivatives of a scalar expression by perturbing one input at a time. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l01-scalar-expression-partials |
 | Vector Addition | Implement elementwise vector addition in Triton with contiguous program tiles and safe masking for partial tails. | https://www.tensortonic.com/study-plans/triton-basics/triton/triton-vector-addition |
 
